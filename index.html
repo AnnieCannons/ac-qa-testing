@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>AnnieCannons slides</title>
+    <title>AnnieCannons Digital Literacy</title>
 
     <meta name="description" content="AnnieCannons class slides">
     <meta name="author" content="AnnieCannons">
@@ -44,64 +44,481 @@
 
         <!--Introduction slide-->
         <section>
-            <h1>Class Name</h1>
-            <h3></h3>
-            <p>
-
-            </p>
+            <h2>Software Testing, Quality Assurance Testing, and the SDLC</h2>
         </section>
         <!--/Intro Slides-->
 
         <section>
-            <h2></h2>
-            <pre><code class="hljs" data-trim contenteditable>
-
-            </code></pre>
-            <p>
-                <a href=""></a>
-            </p>
-            <aside class="notes"></aside>
+            <h2>What is Software Quality Assurance?</h2>
+            <p>SQA is the overarching and systematic process under which a customer specified product or service is created.</p>
+            <p class="fragment">SQA organizes, monitors, improves and audits the product or service during every step of the software development lifecycle focusing on the prevention of problems that software development is prone to create. </p>
         </section>
 
-
-        <!--Slide with list temp-->
         <section>
-            <h2></h2>
-            <ul>
-                <li class="fragment"><a href="" target="_blank"></a></li>
-                <li class="fragment"></li>
-            </ul>
-            <p>
-                <a href=""></a>
-            </p>
-            <aside class="notes"></aside>
+            <h2>What is Software Testing?</h2>
+            <p>Software testing describes a series or set of planned activities, under controlled conditions, which are intentionally designed and executed to uncover failures of the product or service being developed. </p>
+            <p class="fragment">Errors and bugs are brought to light with testing, and any resulting failures are recorded, detailed and forwarded back to the development team for additional review and/or repair. </p>
         </section>
 
-        <!--<section>-->
-            <!--<h2>Clever Quotes</h2>-->
-            <!--<p>-->
-                <!--These guys come in two forms, inline: <q-->
-                    <!--cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">-->
-                <!--&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:-->
-            <!--</p>-->
-            <!--<blockquote-->
-                    <!--cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">-->
-                <!--&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of-->
-                <!--typewriters would-->
-                <!--reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;-->
-            <!--</blockquote>-->
-        <!--</section>-->
+       <section>
+           <h2>Why do companies need this?</h2>
+           <p>They want to know:</p>
+           <ul>
+               <li class="fragment"><span style="color:orange">If the software they built WORKS</span>  (does the program run?)</li>
+               <li class="fragment"><span style="color:orange">Where the software has BUGS</span> (where does the software stop running? What parts of it don’t do what they’re supposed to?)</li>
+               <li class="fragment"><span style="color:orange">Does it still work for everyone </span> (if you click in an unusual place, does it still work as intended?)</li>
+               <li class="fragment"><span style="color:orange">What it is missing</span>  (do you need a BACK button?)</li>
+           </ul>
+       </section>
 
+       <section>
+           <h2>Trying to avoid this...</h2>
+           <img src="images/eroor.png" alt="">
+       </section>
 
-        <!--You can link between slides internally,-->
-        <!--<a href="#/2/3">like this</a>.-->
+       <section>
+           <p>What is an error or problem you have experienced when working on a computer?</p>
+       </section>
 
+       <section>
+           <h2>THE MORE PROBLEMS YOU FIND, THE BETTER.</h2>
+       </section>
+
+       <section>
+           <h2>Why does software have bugs?</h2>
+           <ol>
+               <li>Lack of and/or poor communication between the customer and developer</li>
+               <li>A natural result of human factors, trying to mix human nature with logical programming, compounded by the fact that multiple humans were involved in writing the code</li>
+               <li>The gluing together of many small fragments (units) of code into one large and unwieldy program</li>
+               <li>Misinterpretation of the requirements</li>
+               <li>Compatibility issues between application software, operating systems and target environments</li>
+               <li>Size and complexity of the product being developed</li>
+               <li>Programming errors by developers when writing code </li>
+           </ol>
+       </section>
+
+       <section>
+           <p>It’s not about finding WHETHER the software has defects - all software does. </p>
+           <p>It’s about finding <span style="color:red">how many bugs or defects or oversights exist and where they are</span>.</p>
+       </section>
+
+       <section>
+           <h2>The Software Development Lifecycle (SDLC)</h2>
+           <img src="images/sdlc.png" alt="">
+       </section>
+
+       <section>
+           <h2>The Software Development Lifecycle (SDLC)</h2>
+           <p>Software Development Life Cycle (SDLC), in systems engineering and software engineering refers to the process of creating or altering systems, and the models and methodologies that people use to develop these systems. </p>
+       </section>
+
+       <section>
+           <h2>SDLC Broken Down</h2>
+           <img src="images/sdlc2.png" alt="">
+       </section>
+
+       <section>
+           <h2>Big Picture</h2>
+           <p>SDLC should result in a high quality system that: </p>
+           <ul>
+               <li>meets or exceeds customer expectations</li>
+               <li>reaches completion within time and cost estimates </li>
+               <li>works effectively and efficiently in the current and planned IT infrastructure </li>
+               <li>is inexpensive to maintain and cost- effective to enhance</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>What kind of requirements?</h2>
+           <ol>
+               <li class="fragment"><span style="color:yellow">MARKETING REQUIREMENTS: </span>what you want to sell, and to who.</li>
+               <li class="fragment"><span style="color:yellow">PRODUCT REQUIREMENTS:</span> operations your product needs to complete.</li>
+               <li class="fragment"><span style="color:yellow">SYSTEM REQUIREMENTS: </span>external resources your product needs to run.</li>
+           </ol>
+       </section>
+
+       <section>
+           <h2>A Good Requirements Tester</h2>
+           <p>First, look at all the requirements!</p>
+           <ul>
+               <li class="fragment" style="color:yellow">For each requirement you are testing:</li>
+               <ol>
+                   <li class="fragment">the same meaning should be obvious to everyone in the room.</li>
+                   <li class="fragment">it can produce a measurable result (so you can verify)</li>
+                   <li class="fragment">it’s possible</li>
+                   <li class="fragment">it’s irreplaceable with other parts of the product/design</li>
+                   <li class="fragment">all the requirements together describe the whole product</li>
+               </ol>
+           </ul>
+       </section>
+
+       <section>
+           <h2>A Good Requirements Tester</h2>
+           <p>Second, test the development! </p>
+           <ul>
+               <li class="fragment" style="color:yellow">You’ll need to have and know:</li>
+               <ol>
+                   <li class="fragment">how long you have for testing and when results are due</li>
+                   <li class="fragment">what external resources you’ll use to test</li>
+                   <li class="fragment">what functions/requirements you will test and how you will test them</li>
+                   <li class="fragment">what testing instruction you’ll follow and what result you should get</li>
+               </ol>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Why are requirements important?</h2>
+           <img src="images/requirements.png" alt="">
+       </section>
+
+       <section>
+           <h2>Test Case</h2>
+           <p>Each requirement you are testing should have all this information organized into a TEST CASE. Each testing project is a collection of TEST CASES.  Expect a TEST CASE for each combination of:</p>
+           <img src="images/testcase.png" alt="">
+       </section>
+
+       <section>
+           <h2>Remember</h2>
+           <p>We’ll always leave time between testing and the planned launch date.  <span style="color:yellow">Why?</span></p>
+           <ul>
+               <li class="fragment">Developers need time to fix bugs!</li>
+               <li class="fragment">Once things are fixed they need to be tested again!</li>
+               <li class="fragment">The last thing you test could be the biggest problem!</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Where do you test?</h2>
+           <p>A word on the testing environment</p>
+       </section>
+
+       <section>
+           <h2>When do you text?</h2>
+           <p>earlier = cheaper = better</p>
+       </section>
+
+       <section>
+           <p>You win good reviews, happy clients, and more income if you deliver:</p>
+           <ul>
+               <li>organized feedback</li>
+               <li>detailed feedback</li>
+               <li>complete feedback</li>
+               <li>timely feedback</li>
+           </ul>
+           <p>on the product that helps the client fix or improve it</p>
+       </section>
+
+       <section>
+           <h2>HOW DO YOU TEST?</h2>
+           <p>BE ORGANIZED</p>
+           <p>BE DETAILED</p>
+           <p>BE CONSISTENT</p>
+           <p>USE SCREENSHOTS!</p>
+           <p>As a bonus, if you run a detailed test on a product you will understand how it works almost as well as the developer who built it!</p>
+       </section>
+
+       <section>
+           <h2>Bug Reports</h2>
+           <p>In a great bug report, you will find:</p>
+           <ul>
+               <li class="fragment">START the report with a summary of the big problem.</li>
+               <li class="fragment">DESCRIBE the steps you took to reach the problem, the environment your were using, and how it might effect a customer.</li>
+               <li class="fragment">Include things like your device type, OS version/BIOS version, browser type, connection speed and type.  Make sure the problem is not you (like a weak wifi signal).</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Bug Report continued</h2>
+           <ul>
+               <li class="fragment">Report problems that are <span style="color:red;">REPRODUCIBLE</span> - in other words, they will be there not matter who follows the steps you did.  Make sure you can reproduce every problem at least 3 times with the process in your report. </li>
+               <li class="fragment">Still make a note if it happened once, but add that it wasn’t reproducible.</li>
+               <li class="fragment">SEPARATE each bug into a different report segment.  Organize them according to how serious they are.</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>In an Awesome bug report, you'll find:</h2>
+           <ul>
+               <li class="fragment">LOTS of detail.</li>
+               <li class="fragment">The same names and terminology found in the product.</li>
+               <li class="fragment">A comparison of the actual results to the expected results in the test plan.  When we do a testing project together, we’ll help with these descriptions.</li>
+               <li class="fragment">Says, “product wasn’t doing x when y” NOT “there’s a problem.”</li>
+               <li class="fragment">Statement of Severity….</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Sample severity scale:</h2>
+           <ul style="font-size:25px">
+                <li class="fragment"> <span style="color:red;">P0:</span> this problem makes the product useless or makes it fail its essential function.  It should be fixed ASAP and before all others.</li>
+                <li class="fragment"> <span style="color:red;">P1:</span> this problem seriously affects the product’s usability and needs to be fixed as soon as P0s are fixed.</li>
+                <li class="fragment"> <span style="color:red;">P2:</span> this problem results in a noticeably poor user experience. It’s still a high-priority fix.</li>
+                <li class="fragment"> <span style="color:red;">P3:</span> this problem degrades the user experience in ways that are not obvious to every user, or effects only a small portion of users noticeably.</li>
+                <li class="fragment"> <span style="color:red;">P4:</span> this problem results in a noticeably poor user experience (but not uselessness) for only some users or some cases. It’s still a high-priority fix.</li>
+                <li class="fragment"> <span style="color:red;">P5:</span> this problem would be nice to fix but isn’t mission-critical.</li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Bug Report: Presentation Matters</h2>
+           <p class="fragment">Use neutral, descriptive statements to describe issues.</p>
+           <p class="fragment">USE THE FORMAT AND TERMINOLOGY WE CREATE FOR THE PROJECT</p>
+           <p class="fragment">DON’T insult individual developers or use personalized criticism</p>
+           <p class="fragment">DON’T use humor or sarcasm - it won’t come across </p>
+       </section>
+
+       <section>
+           <h2>Bug Report: Presentation Matters</h2>
+           <p>Just state facts like this:</p>
+           <ul>
+               <li class="fragment">“____ LINK redirects to the wrong place” </li>
+               <li class="fragment">“____ menu doesn’t open when clicked from ____” </li>
+               <li class="fragment">“____ exact sentence contains a typo” </li>
+           </ul>
+           <p class="fragment"><a href="https://www.viget.com/articles/tips-for-writing-better-bug-reports">More on writing bug reports</a></p>
+       </section>
+
+       <section>
+           <h2>Important Vocabulary</h2>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">When I say “software product” I mean…</span></p>
+           <p class="fragment">One or more pieces of software code that meet a need - or want - someone has.</p>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">MVP</span></p>
+           <p class="fragment">The minimum viable product: the product that effects the fewest number of functions that meet a core product goal.</p>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">Iterating</span></p>
+           <p class="fragment">Take one step at a time.  Build one function at a time.  Succeed with that function before moving to the next.  Build tools that rely upon one another in a logical order.</p>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">A software product is “feasible” when…</span></p>
+           <p class="fragment">It is economical: it costs less than it earns. <br>
+            It is operational: it serves its intended purpose. <br>
+            It technically works: it doesn’t crash!</p>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">Backlog</span></p>
+           <p class="fragment">The “to do” list of your software development needs.</p>
+       </section>
+
+       <section>
+           <p><span style="color:yellow">Metrics</span></p>
+           <p class="fragment">A metric is a standard of measurement. Software metrics are the statistics describing the structure or contact of a program. A metric should be a real objective measurement of something scubas number of bugs per lines of code.</p>
+       </section>
+        <section>
+           <p><span style="color:yellow">“ROI” (Return on Investment)</span></p>
+           <p class="fragment">Given two features that have EQUAL value to the customer, you would first build the one that took less work.</p>
+       </section>
+
+       <section>
+           <h2>Write your own requirements</h2>
+           <p>Questions:</p>
+           <ul>
+               <li>What’s the goal? What problem(s) will it solve?</li>
+               <li>What functions should it have?</li>
+               <li>Who will use it?</li>
+               <li>When will it be useful?</li>
+               <li>What information or data sets does it rely on?</li>
+               <li>What pieces already exist?</li>
+               <li>What costs will be incurred to build it?</li>
+           </ul>
+           <p>Why might requirements change?</p>
+       </section>
+        
+        <section>
+            <h2>Writing you own test cases</h2>
+            <p>You will map each test case to its corresponding requirement before you start any testing project. </p>
+                <a href="">Project</a>
+        </section>
+
+        <section>
+            <h2>Different Types of Testing</h2>
+            <ul>
+                <li class="fragment">Unit testing: The brick of a house</li>
+                <li class="fragment">Integration testing: The wall made of many bricks</li>
+                <li class="fragment">System testing: The whole house</li>
+                <li class="fragment">User acceptance testing: The potential buyer of the house</li>
+                <li class="fragment">What others can you find?</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>SDLC Methods</h2>
+            <p>There are many different ways for a company to set up their SDLC. A lot of it depends on the kind of company it is, the type of product (or website) they are making, and the complexity or the number of people working on the product.</p>
+            <ul>
+                <li class="fragment">Easiest: U-shape</li>
+                <li class="fragment">Two main categories:adaptive ("agile") and predictive ("plan-driven") methods. </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agile</h2>
+            <p>Agile methodologies generally promote a project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, and self-organization and accountability</p>
+            <ul>
+                <li class="fragment">Individuals and interactions over processes and tools </li>
+                <li class="fragment">Working software over comprehensive documentation </li>
+                <li class="fragment">Customer collaboration over contract negotiation </li>
+                <li class="fragment">Responding to change over following a plan </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agile: Sprints</h2>
+            <p>Sprints: a set period of time during which specific work has to be completed and made ready for review.</p>
+            <p>The duration of a sprint is determined by the scrum master, the team's facilitator. Once the team reaches a consensus for how many days a sprint should last, all future sprints should be the same. Traditionally, a sprint can last from one week to 30 days.</p>
+        </section>
+
+        <section>
+            <h2>Agile</h2>
+            <img src="images/agile.jpg" alt="">
+        </section>
+
+        <section>
+            <h2>Agile Scrum</h2>
+            <img src="images/scrum.jpg" alt="">
+        </section>
+
+        <section>
+            <h2>Waterfall</h2>
+            <p>The waterfall model shows a process, where developers are to follow these steps in order:</p>
+            <ol>
+                <li class="fragment">Requirements specification (AKA Verification or Analysis) </li>
+                <li class="fragment">Design </li>
+                <li class="fragment">Construction (AKA implementation or coding) </li>
+                <li class="fragment">Integration </li>
+                <li class="fragment">Testing and debugging (AKA validation) </li>
+                <li class="fragment">Installation (AKA deployment) </li>
+                <li class="fragment">Maintenance </li>
+            </ol>
+            <p class="fragment">Like architects who build a house, the plan is to build the foundation first and not revisit.</p>
+        </section>
+
+        <section>
+            <h2>Spiral</h2>
+            <p>The steps in the spiral model can be generalized as follows:</p>
+            <ol style="font-size:30px">
+                <li class="fragment">The new system requirements are defined in as much detail as possible. This usually involves interviewing a number of users representing all the external or internal users and other aspects of the existing system. </li>
+                <li class="fragment">A preliminary design is created for the new system. </li>
+                <li class="fragment">A first prototype of the new system is constructed from the preliminary design. This is usually a scaled-down system, and represents an  approximation of the characteristics of the final product. </li>
+                <li class="fragment">A second prototype is evolved by evaluating the first prototype, defining the requirements of the second prototype, planning and designing the second prototype, and constructing and testing the second prototype.</li>
+            </ol> 
+        </section>
+
+        <section>
+            <h2>Spiral Diagram</h2>
+            <img src="images/spiral.png" alt="">
+        </section>
+
+        <section>
+            <h2>Example from the industry</h2>
+        </section>
+
+        <section>
+            <h2>Review</h2>
+            <p style="color:yellow">What is the most important process in a life cycle of a product and why?</p>
+            <p class="fragment">The most important part of the life cycle is the requirement stage. The majority of bugs can be found in bad requirements and thus will save the company you work for millions of dollars. Bad requirements can cause confusion between teams and can create chaos at the workplace.</p>
+        </section>
+
+        <section>
+            <h2>Review</h2>
+            <p style="color:yellow">Why would you log a defect?</p>
+            <p class="fragment">It is the job of a tester to find bugs. If bugs are not logged, then there would be no record of the bug found and it would not get fixed. These errors would remain in the code when the customer received the product.</p>
+        </section>
+
+        <section>
+            <h2>Review</h2>
+            <p style="color:yellow">What are metrics?</p>
+            <p class="fragment">A metric is a standard of measurement. Software metrics are the statistics describing the structure or content of a program. A metric should be a real objective measurement of something such as number of bugs per lines of code.</p>
+        </section>
+
+        <section>
+            <h2>Review</h2>
+            <p style="color:yellow">What are requirements?</p>
+            <p class="fragment">A requirement is a guideline to what the program or product is supposed to do. Good requirement need to be clear, concise and unambiguous because there may be a large group of people that will read the requirement. A requirement also needs to be verifiable, feasible, necessary and complete.</p>
+        </section>
+
+        <section>
+            <h2>When reading requirements, remember to ask:</h2>
+            <img src="images/how.png" alt="">
+        </section>
+
+        <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect1.png" alt="">
+        </section>
+
+        <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect2.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect3.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect4.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect5.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect6.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect7.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect8.png" alt="">
+        </section>
+
+         <section>
+            <h2>Defect Lifecycle</h2>
+            <img src="images/defect9.png" alt="">
+        </section>
+
+        <section>
+            <h2>Exercises</h2>
+            <ul>
+                <li><a href="">Worksheet</a></li>
+                <li><a href="">Creating a matrix for testing and writing bug reports</a></li>
+            </ul>
+            <aside class="notes">use Bug Report document</aside>
+        </section>
+
+        <section>
+            <h2>Usertesting</h2>
+        </section>
+
+        <section>
+            <h2>Great link for more information on testing</h2>
+            <a href="http://www.softwareqatest.com/qatlnks1.html">Other Software QA and Testing Resources</a>
+            <a href="https://www.thoughtworks.com/software-testing">ThoughtWorksa</a>
+            <a href="http://mobile.dudamobile.com/site/aptest?url=http%3A%2F%2Fwww.aptest.com%2Fglossary.html&utm_referrer=https%3A%2F%2Fwww.google.com%2F#2734">Software Testing Glossary</a>
+        </section>
 
         <section style="text-align: left;">
             <h1>THE END</h1>
             <p>Thank you for your attention!</p>
         </section>
-
     </div>
 
 </div>
