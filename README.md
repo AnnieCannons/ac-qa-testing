@@ -1,6 +1,6 @@
-# AnnieCannons Introduction to the Web
+# AnnieCannons Introduction to the Quality Assurance/Software Testing
 
-Here you will find the information for our unit on introducing the Web. Enjoy!
+Here you will find the information for our unit on software testing. Enjoy!
 
 How to use this repo:
 
