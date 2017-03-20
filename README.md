@@ -15,6 +15,7 @@ This module is an overview of how technology and software is built and tested. Q
 
 # Resources
 1) Check out Usertesting.com to start working on user testing on their platform. 
+2) Check out the folder called "Handouts"
 
 Make sure to go through the slides for additional resources on testing!
   
